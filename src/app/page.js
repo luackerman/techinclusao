@@ -9,7 +9,7 @@ import './page.css';
 
 export default function Home() {
   return (
-    <div>
+    <div className='App'>
       <Chatbot
         config={config}
         messageParser={MessageParser}
