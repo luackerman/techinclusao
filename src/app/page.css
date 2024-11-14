@@ -1,44 +1,23 @@
-*{ 
-    margin: 0;
-    padding: 0;
+* {
+    margin: 2;
+    padding: 2;
     box-sizing: border-box;
 }
-
-.App {
+.App{
     display: flex;
-    justify-content: center;
+    justify-content:left ;
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background: #8314c9; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #7d04b9, #9716e7, #000000);
-    background: linear-gradient(to right, #7d04b9, #000000); /*W3C*/;
+    background: #020102; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9316e6, #8c02e8, #270c59, #000000);
+    background: linear-gradient(to right, #9316e6, #8100d7, #5c0b92); /*W3C*/;
 }
 
-.react-chatbot-kit-chat-container {
-    width: 600px;
+    .react-chatbot-kit-chat-container {
+        width: 500px;
 }
 
-.react-chatbot-kit-chat-bot-messge{
-    margin-left: 15px;
-
-}
-.AI {
-    background-color: #7d04b9;
-    width: 50px;
-    height: 50px;
-    display: grid;
-    place-items: left;
-    color: #000000;
-    border-radius: 100%;
-}
-
-.start-btn{
-    background-color: #7d04b9;
-    color: lightgray;
-    padding: .5rem 1rem;
-    border-radius: 999px;
-    border: none;
-    cursor: pointer;
-    margin-left: 3rem;
+    .react-chatbot-kit-chat-bot-message {
+        margin-left: 15px;
 }
