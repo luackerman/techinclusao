@@ -2,7 +2,7 @@ import React from 'react';
 
 const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   const initialAction =() => {
-    const message = createChatBotMessage('Insira o seu nome para começar!')
+    const message = createChatBotMessage(' eu quero mudar meu endereço')
     updateState(message)
   }  
 
@@ -25,3 +25,5 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     </div>
   );
 };
+
+export default ActionProvider;
